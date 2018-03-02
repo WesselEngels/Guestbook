@@ -1,0 +1,82 @@
+body {
+  background-image: url("../img/hemelvaart.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#send-button {
+  background-color: white;
+  border-radius: 20px;
+  width: 120px;
+  font-size: 20px;
+  color: brown;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  outline: 0;
+  text-align: center;
+}
+
+#reset-button {
+  background-color: white;
+  border-radius: 20px;
+  width: 120px;
+  font-size: 20px;
+  color: brown;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  outline: 0;
+  text-align: center;
+}
+
+input[type=text], [type=email], [type=url], select, textarea {
+  width: 570px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  resize: vertical;
+  outline: none;
+  font-family: sans-serif;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+#container-review {
+  margin-left: 50px;
+  float: left;
+  margin-top: 40px;
+}
+
+#container-show {
+  color: white;
+  width: 800px;
+  height: 600px;
+  margin-top: 50px;
+  float: right;
+  overflow-y: scroll;
+}
+
+#footer {
+  color: black;
+  text-align: center;
+  margin-left: 199px;
+  width: 882px;
+  height: 50px;
+  font-size: 8px;
+  padding-top: 6px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+
+#txtInput {
+  width: 100px;
+}
